@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<!-- saved from url=(0433)https://s3.eu-west-1.amazonaws.com/eduflow-production/activity-resources/123308249301183.html?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA2TAWW44RDWPS6YGR%2F20210216%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20210216T113216Z&X-Amz-Expires=600&X-Amz-SignedHeaders=host&response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27D2.html&X-Amz-Signature=12cec0c25eb231891c8706dece5809f924688ca0b182c2a4a26c5d904be09004 -->
+<html lang="en"><script data-dapp-detection="">!function(){let e=!1;function n(){if(!e){const n=document.createElement("meta");n.name="dapp-detected",document.head.appendChild(n),e=!0}}if(window.hasOwnProperty("ethereum")){if(window.__disableDappDetectionInsertion=!0,void 0===window.ethereum)return;n()}else{var t=window.ethereum;Object.defineProperty(window,"ethereum",{configurable:!0,enumerable:!1,set:function(e){window.__disableDappDetectionInsertion||n(),t=e},get:function(){if(!window.__disableDappDetectionInsertion){const e=arguments.callee;e&&e.caller&&e.caller.toString&&-1!==e.caller.toString().indexOf("getOwnPropertyNames")||n()}return t}})}}();</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- IMPORT ALL THE BOOTSTRAP RELATED CSS & SCRIPTS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <style>
+        .card{
+            margin-top: auto;
+        }
+        
+      /* EXERCISE 1
+            For all Albums we'd like to have a consistent style.
+            Create a class for:
+            - The album container
+            - The album cover
+            - The album title
+            - The album group / singer / dj
+            - The album genre
+            - The album duration
+            - etc
+         */
+    </style>
+  </head>
+  <body>
+    <!-- EXERCISE 2 
+            Implement a navigation bar using the bootstrap component
+            This navigation bar must be linked to every section in your page
+        -->
+
+        <nav class="navbar navbar-expand-lg navbar-light "style="background-color: #e3f2fd;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">GREAT ALBUMS</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#section">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#underrated">Underrated Albums</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#The-worst-and-overrated">The worst and overrated Albums</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <section id="section" class="py-5 text-center container">
+            <div class="row py-lg-5">
+              <div class="col-lg-6 col-md-8 mx-auto">
+                <h1 class="fw-light">Album</h1>
+                <p class="lead text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio nesciunt amet quisquam blanditiis minus, aperiam omnis sapiente nemo facilis mollitia aliquam voluptate incidunt dignissimos fugit tenetur excepturi quos esse fugiat?</p>
+                
+              </div>
+            </div>
+          </section>
+    <!-- EXERCISE 3
+            Create a responsive section for your favourite albums.
+            In this section you should have:
+            - 4 albums per row when the screen is very large
+            - 3 albums per row when you are on a tablet (or a smaller window)
+            - 2 albums per row when you are on a small screen
+        --><h2 id="Most-rated" style="margin-top: 50px;" class="text-success">Most rated albums:</h2>
+        <div class="container-fluid row align-items-center">
+            
+            <div class="card  col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="https://www.sohh.com/wp-content/uploads/2020/01/Eminem-Music-To-Be-Murdered-By.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Eminem's MUSIC TO BE MURDERED</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus eius velit assumenda culpa sed eum officiis, distinctio cumque explicabo veniam iure molestiae voluptatem labore. Aspernatur, qui! Ullam eveniet quo laboriosam.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+
+              <div class=" card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="https://www.sohh.com/wp-content/uploads/2020/01/Eminem-Music-To-Be-Murdered-By.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Eminem's MUSIC TO BE MURDERED</h5>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex perspiciatis qui, dolor alias optio neque tempore inventore fugiat eligendi eaque sed harum et nihil maiores vitae soluta maxime provident cupiditate!</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+
+              <div class=" card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="https://www.sohh.com/wp-content/uploads/2020/01/Eminem-Music-To-Be-Murdered-By.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Eminem's MUSIC TO BE MURDERED</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eveniet asperiores culpa reprehenderit, maxime libero quaerat dolores accusantium quos, laboriosam dolor repellat inventore, doloremque consequuntur fugiat! Ducimus cupiditate ab id.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+
+              <div class="card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="https://www.sohh.com/wp-content/uploads/2020/01/Eminem-Music-To-Be-Murdered-By.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Eminem's MUSIC TO BE MURDERED</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime possimus sunt esse id soluta animi libero quod! Error impedit laudantium expedita, perferendis, illum nam nobis dolores maxime, iste molestias cupiditate?</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+              <div class="card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="https://www.sohh.com/wp-content/uploads/2020/01/Eminem-Music-To-Be-Murdered-By.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Eminem's MUSIC TO BE MURDERED</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime possimus sunt esse id soluta animi libero quod! Error impedit laudantium expedita, perferendis, illum nam nobis dolores maxime, iste molestias cupiditate?</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+              <div class="card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="https://www.sohh.com/wp-content/uploads/2020/01/Eminem-Music-To-Be-Murdered-By.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Eminem's MUSIC TO BE MURDERED</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime possimus sunt esse id soluta animi libero quod! Error impedit laudantium expedita, perferendis, illum nam nobis dolores maxime, iste molestias cupiditate?</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+              
+            </div>  
+          
+          <h2 id="underrated" style="margin-top: 50px;" class="text-success">underrated albums:</h2>
+
+
+          <div class="container-fluid row align-items-center">
+            <div class="card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="http://4.bp.blogspot.com/_XOeagKFV-ZM/SsIusc96HpI/AAAAAAAAAQc/wz2J7DRWapg/s400/Eminem%2B-%2BEminem%2BIs%2BBack.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Eminem</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ducimus itaque minus deserunt similique et soluta hic atque fuga, sequi provident expedita, eum repellat earum consequuntur corporis dolor id laborum?</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+
+              <div class="card col-md-12 col-lg-4 " style="width: 18rem;">
+                <img src="https://upload.wikimedia.org/wikipedia/en/3/3c/Just_Lose_It.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Eminem</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex debitis dicta nam consequuntur repellat adipisci, reprehenderit qui eum impedit fugit, aliquam praesentium repudiandae fuga! Possimus cumque voluptas laborum culpa ipsam!</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+
+              <div class="card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="http://4.bp.blogspot.com/_XOeagKFV-ZM/SsIusc96HpI/AAAAAAAAAQc/wz2J7DRWapg/s400/Eminem%2B-%2BEminem%2BIs%2BBack.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Eminem</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores saepe voluptatum voluptatibus! Dolor sapiente natus nobis. Enim odio natus recusandae nemo necessitatibus rerum saepe ea veritatis adipisci, iusto illum!</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+
+              <div class="card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="https://upload.wikimedia.org/wikipedia/en/3/3c/Just_Lose_It.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Eminem</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error commodi aliquid voluptates recusandae harum! Eos, praesentium. Impedit, maxime eveniet minus quas expedita officiis ullam ex accusamus eum laboriosam amet esse!</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+              <div class="card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="http://4.bp.blogspot.com/_XOeagKFV-ZM/SsIusc96HpI/AAAAAAAAAQc/wz2J7DRWapg/s400/Eminem%2B-%2BEminem%2BIs%2BBack.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Eminem</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores saepe voluptatum voluptatibus! Dolor sapiente natus nobis. Enim odio natus recusandae nemo necessitatibus rerum saepe ea veritatis adipisci, iusto illum!</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+              <div class="card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="http://4.bp.blogspot.com/_XOeagKFV-ZM/SsIusc96HpI/AAAAAAAAAQc/wz2J7DRWapg/s400/Eminem%2B-%2BEminem%2BIs%2BBack.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Eminem</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo asperiores saepe voluptatum voluptatibus! Dolor sapiente natus nobis. Enim odio natus recusandae nemo necessitatibus rerum saepe ea veritatis adipisci, iusto illum!</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+            </div>  
+         
+          <h2 id="The-worst-and-overrated" style="margin-top: 50px;"class="text-danger">The worst and overrated albums:</h2>
+          
+          <div class="container-fluid row align-items-center">
+            <div class="card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Lilwayne-onfire.jpg/220px-Lilwayne-onfire.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">idk</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis harum atque, ipsum aperiam aspernatur aliquam nam. Dolore quaerat voluptatibus libero corrupti aliquid. Perspiciatis ducimus impedit vero, vel adipisci dignissimos nisi.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :FAKE HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+
+              <div class="card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Lilwayne-onfire.jpg/220px-Lilwayne-onfire.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">idk</h5>
+                  <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum est maxime inventore ipsa amet sequi laudantium laborum placeat omnis adipisci. Voluptas incidunt facilis sit est blanditiis. Delectus rem quasi consectetur!</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :FAKE HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+
+              <div class="card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Lilwayne-onfire.jpg/220px-Lilwayne-onfire.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">idk</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro sapiente quis et, accusamus eveniet mollitia quisquam! Modi ab laudantium sequi alias quis temporibus eveniet, magnam, id provident voluptatum aut sunt?</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :FAKE HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+
+              <div class="card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Lilwayne-onfire.jpg/220px-Lilwayne-onfire.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">idk</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam facilis fugit esse dolor velit, beatae quod dolorem distinctio reiciendis perferendis fuga harum. Totam accusantium aliquam dolores facilis, ab illo aut.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :FAKE HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+              <div class="card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Lilwayne-onfire.jpg/220px-Lilwayne-onfire.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">idk</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis harum atque, ipsum aperiam aspernatur aliquam nam. Dolore quaerat voluptatibus libero corrupti aliquid. Perspiciatis ducimus impedit vero, vel adipisci dignissimos nisi.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :FAKE HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+              <div class="card col-md-12 col-lg-4 col-xs-2" style="width: 18rem;">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Lilwayne-onfire.jpg/220px-Lilwayne-onfire.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">idk</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis harum atque, ipsum aperiam aspernatur aliquam nam. Dolore quaerat voluptatibus libero corrupti aliquid. Perspiciatis ducimus impedit vero, vel adipisci dignissimos nisi.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><strong>Genre :FAKE HIPHOP</strong></li>
+                  <li class="list-group-item"><strong>Lenght : 3-5mins</strong></li>
+                </ul> 
+              </div>
+          </div>
+          <div class="container-fluid " style="margin-top: 50px; background-color: rgb(228, 248, 248);">
+            <address>
+                Twitter, Inc. <br>
+                1355 Market St, Suite 900 <br>
+                San Francisco, CA 94103 <br>
+                P: (123) 456-7890 <br>
+                Full Name <br>
+                first.last@example.com</address>
+          </div>
+    <!-- EXERCISE 4
+            Create a section for the album review.
+            Pick one of your fav albums, and create a section with:
+            - Cover
+            - Title
+            - Band
+            - Lenght
+            - Genre
+            - Tracklist
+            - ... And whatever you think it's interesting about it!
+        -->
+
+    <!-- EXERCISE 5
+            Worst album list! Find out the music you don't really like or you find overrated and list it
+            in this "hall of shame" chart!
+        -->
+
+    <!-- EXERCISE 6
+            Do you have any musician / band you admire or you are fan of?
+            This section is dedicated to him / her / them!
+            Feel free to experiment in this part of the page.
+        -->
+
+    <!-- EXERCISE 7
+            Just covers!
+            Create a tapestry of album pictures. Every album picture must be "square" (use CSS to do that).
+            Put at least 20 covers (also repeated) to have a nice effect and see how Bootstrap handles it.
+        -->
+
+    <!-- EXERCISE 8
+            Implement a footer with some information / social links
+        -->
+
+    <!-- EXTRA:
+            EXERCISE 9
+            Create album details that are going to be toggled on and off by clicking on the album image
+        -->
+
+    <!-- EXERCISE 10
+            Add a button to each section. By clicking on it the section body appears (if hidden) or disappears (if visible)
+        -->
+
+    <!--
+            EXERCISE 11
+            Add in the footer a field that counts, on page load, how many ALBUMS are on the page 
+        -->
+  
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body></html>
